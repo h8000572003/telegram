@@ -47,10 +47,4 @@ public interface IBotRepository {
 	 */
 	List<BotSystem> selectOption(Consumer<BotSystem> supplier);
 
-	/**
-	 * 取得LOG
-	 * 
-	 * @return
-	 */
-	Optional<File> getLog();
 }
